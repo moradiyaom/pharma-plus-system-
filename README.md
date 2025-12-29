@@ -102,7 +102,7 @@ pharma-pluse-system/
 ### Steps
 1. **Clone or Download Repository**
    ```bash
-   git clone https://github.com/your-username/pharma-pluse-system.git
+   git clone https://github.com/moradiyaom/pharma-pluse-system.git
 
 
 Move to htdocs Folder
@@ -114,14 +114,12 @@ Import Database
 
 Open phpMyAdmin
 
-Create a new database named:
 
-pharma_pluse
 
 
 Import the file:
 
-database/pharma_pluse.sql
+database/db_connect.sql
 
 
 Configure Database Connection
@@ -130,7 +128,7 @@ Open includes/db_connect.php
 
 Update your local DB credentials:
 
-$conn = mysqli_connect("localhost", "root", "", "pharma_pluse");
+$conn = mysqli_connect("localhost", "root", "", "users");
 
 
 Run the Application
@@ -141,12 +139,12 @@ http://localhost/pharma-pluse-system/
 
 🔐 Default Login Credentials
 Role	Email	Password
-Admin	admin@pharma.com
-	admin123
-Company	company@pharma.com
-	company123
-Customer	customer@pharma.com
-	customer123
+Admin	admin@gmail.com
+	admin
+Company	company@gmail.com
+	company
+Customer	customer@gmail.com
+	customer
 
 (You can modify these in phpMyAdmin under the users table.)
 
@@ -173,7 +171,7 @@ REST API support for mobile app integration.
 
 🖋️ Author
 
-Developed by: [Your Name]
-📧 youremail@example.com
+Developed by: OM MORADIYA
+📧 ommoradiya22@gmail.com 
 
-💻 https://github.com/your-username
+💻 https://github.com/moradiyaom
