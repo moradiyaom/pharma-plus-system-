@@ -102,7 +102,7 @@ pharma-pluse-system/
 ### Steps
 1. **Clone or Download Repository**
    ```bash
-   git clone https://github.com/moradiyaom/pharma-pluse-system.git
+   git clone https://github.com/moradiyaom/pharma-pluse-system-.git
 
 
 Move to htdocs Folder
